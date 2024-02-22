@@ -86,8 +86,9 @@ button{
     border: solid 2px hsl(0, 0%, 95%);
     color:  hsl(0, 0%, 95%);
 }
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
     body{
-        display: grid;
+       flex-direction: row;
+       min-height: 100vh;
     }
 }
