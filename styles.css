@@ -91,7 +91,6 @@ button{
         flex-direction: column;
     }
     .flexbox-container{
-        display: grid;
         margin-left: 70px;
         justify-content: center;
     }
