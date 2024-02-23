@@ -89,6 +89,8 @@ button{
 @media screen and (max-width: 375px) {
     .flexbox-container{
         display: grid;
+        margin-left: 70px;
+        justify-content: center;
     }
     .flexbox-item1{
         width: 100px;
