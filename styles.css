@@ -101,6 +101,7 @@ button{
         scale: 1.065 0.884;
         flex-wrap: wrap;
         flex-direction: column;
+        flex: 1 100%;
     }
     .flexbox-item1{
         width: 100px;
