@@ -94,13 +94,13 @@ button{
 @media screen and (max-width: 375px) {
     .flexbox-container{
         display: flex;
-        flex-direction: column;
         height: 1502px;
         width: 326.96px;
     }
     .flexbox-items{
         scale: 1.065 0.884;
         flex-wrap: wrap;
+        flex-direction: column;
     }
     .flexbox-item1{
         width: 100px;
