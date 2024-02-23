@@ -88,7 +88,6 @@ button{
 }
 @media screen and (max-width: 375px) {
     .flexbox-container{
-        margin-left: 70px;
         justify-content: center;
         flex-direction: column;
     }
