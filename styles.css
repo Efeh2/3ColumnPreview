@@ -87,5 +87,50 @@ button{
     color:  hsl(0, 0%, 95%);
 }
 @media screen and (max-width: 375px) {
-    
+    .flexbox-container{
+        display: grid;
+    }
+    .flexbox-item1{
+        width: 100px;
+        height: 250px;
+        background-color: hsl(31, 77%, 52%);
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .flexbox-item2{
+        width: 100px;
+        height: 250px;
+        background-color: hsl(184, 100%, 22%);
+    }
+    .flexbox-item3{
+        width: 100px;
+        height: 250px;
+        background-color:  hsl(179, 100%, 13%) ;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    h1{
+        color: hsl(0, 0%, 95%);
+        margin-left: 20px;
+        margin-top: 20px;
+        font-family: "Big Shoulders Display", sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    p{
+        padding-inline: 20px;
+        margin-top: 20px;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: "Lexend Deca" sans-serif;
+        font-weight: 400;
+    }
+    button{
+        width: 50px;
+        height: 20px;
+        border-radius: 30px;
+        margin-left: 1px;
+        margin-top: 30px;
+        background-color: hsl(0, 0%, 95%);
+    }
 }
