@@ -93,6 +93,7 @@ button{
 }
 @media screen and (max-width: 375px) {
     .flexbox-container{
+        display: flex;
         flex-direction: column;
         height: 1502px;
         width: 326.96px;
