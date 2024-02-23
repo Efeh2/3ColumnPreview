@@ -15,6 +15,98 @@
     margin-bottom: 2rem;
   }
   
+  .flexbox-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flexbox-item1{
+    width: 270px;
+    height: 400px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.flexbox-item2{
+    width: 270px;
+    height: 400px;
+    background-color: hsl(184, 100%, 22%);
+}
+.flexbox-item3{
+    width: 270px;
+    height: 400px;
+    background-color:  hsl(179, 100%, 13%) ;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+img{
+    margin-top: 40px;
+    padding-inline: 40px;
+}
+h1{
+    color: hsl(0, 0%, 95%);
+    padding-inline: 40px;
+    margin-top: 20px;
+    font-family: "Big Shoulders Display", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+p{
+    padding-inline: 40px;
+    margin-top: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca" sans-serif;
+    font-weight: 400;
+}
+button{
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 37px;
+    margin-top: 60px;
+    background-color: hsl(0, 0%, 95%);
+}
+.Sedans{
+    color:  hsl(31, 77%, 52%);
+    border: solid  hsl(31, 77%, 52%);
+}
+.Sedans:hover{
+    background-color:  hsl(31, 77%, 52%);
+    border: solid 2px hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+.SUVs{
+  color: hsl(184, 100%, 22%);
+  border: solid hsl(184, 100%, 22%);
+}
+.SUVs:hover{
+  background-color: hsl(184, 100%, 22%);
+  border: solid 2px hsl(0, 0%, 95%);
+  color:  hsl(0, 0%, 95%);
+}
+.Luxury{
+  color: hsl(179, 100%, 13%);
+  border: solid  hsl(179, 100%, 13%);
+}
+.Luxury:hover{
+  background-color: hsl(179, 100%, 13%);
+  border: solid 2px hsl(0, 0%, 95%);
+  color:  hsl(0, 0%, 95%);
+}
+@media screen and (max-width: 375px) {
+  body {
+    background-color: hsl(0, 0%, 95%);
+    font-family: "Lexend Deca" sans-serif;
+  }
+  .flexbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+  }
+  
   .flex-item {
     display: flex;
     flex-direction: column;
@@ -28,7 +120,7 @@
     height: 400px;
     background-color: hsl(31, 77%, 52%);
     border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
   
   .flexbox-item2 {
@@ -40,7 +132,7 @@
     width: 270px;
     height: 400px;
     background-color: hsl(179, 100%, 13%);
-    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
   }
   
@@ -93,7 +185,7 @@
     border: solid 2px hsl(0, 0%, 95%);
     color: hsl(0, 0%, 95%);
   }
-  
+}
   @media screen and (max-width: 500px) {
     .flexbox-container {
       flex-direction: column;
@@ -124,162 +216,3 @@
       border-bottom-right-radius: 10px;
     }
   }
-  
-  @media screen and (max-width: 375px) {
-    .flexbox-container {
-      flex-direction: column;
-    }
-  
-    .flex-item {
-      padding: 3rem;
-    }
-  
-    p {
-      font-size: 1.3rem;
-    }
-  
-    button {
-      margin-top: 1rem;
-      width: 150px;
-      height: 50px;
-      font-size: 1.2rem;
-    }
-  }
-  
-  /* .flexbox-items{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  .flexbox-item1{
-      width: 270px;
-      height: 400px;
-      background-color: hsl(31, 77%, 52%);
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px;
-  }
-  .flexbox-item2{
-      width: 270px;
-      height: 400px;
-      background-color: hsl(184, 100%, 22%);
-  }
-  .flexbox-item3{
-      width: 270px;
-      height: 400px;
-      background-color:  hsl(179, 100%, 13%) ;
-      border-top-right-radius: 10px;
-      border-bottom-right-radius: 10px;
-  }
-  img{
-      margin-top: 40px;
-      padding-inline: 40px;
-  }
-  h1{
-      color: hsl(0, 0%, 95%);
-      padding-inline: 40px;
-      margin-top: 20px;
-      font-family: "Big Shoulders Display", sans-serif;
-      font-size: 32px;
-      font-weight: 700;
-      text-transform: uppercase;
-  }
-  p{
-      padding-inline: 40px;
-      margin-top: 20px;
-      color: hsla(0, 0%, 100%, 0.75);
-      font-family: "Lexend Deca" sans-serif;
-      font-weight: 400;
-  }
-  button{
-      width: 130px;
-      height: 40px;
-      border-radius: 30px;
-      margin-left: 37px;
-      margin-top: 60px;
-      background-color: hsl(0, 0%, 95%);
-  }
-  .Sedans{
-      color:  hsl(31, 77%, 52%);
-      border: solid  hsl(31, 77%, 52%);
-  }
-  .Sedans:hover{
-      background-color:  hsl(31, 77%, 52%);
-      border: solid 2px hsl(0, 0%, 95%);
-    color: hsl(0, 0%, 95%);
-}
-.SUVs{
-    color: hsl(184, 100%, 22%);
-    border: solid hsl(184, 100%, 22%);
-}
-.SUVs:hover{
-    background-color: hsl(184, 100%, 22%);
-    border: solid 2px hsl(0, 0%, 95%);
-    color:  hsl(0, 0%, 95%);
-}
-.Luxury{
-    color: hsl(179, 100%, 13%);
-    border: solid  hsl(179, 100%, 13%);
-}
-.Luxury:hover{
-    background-color: hsl(179, 100%, 13%);
-    border: solid 2px hsl(0, 0%, 95%);
-    color:  hsl(0, 0%, 95%);
-}
-@media screen and (max-width: 375px) {
-    .flexbox-container{
-        display: flex;
-        height: 1502px;
-        width: 326.96px;
-    }
-    .flexbox-items{
-        scale: 1.065 0.884;
-        flex-wrap: wrap;
-        flex-direction: column;
-        flex: 1 100%;
-    }
-    .flexbox-item1{
-        width: 100px;
-        height: 250px;
-        background-color: hsl(31, 77%, 52%);
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-    .flexbox-item2{
-        width: 100px;
-        height: 250px;
-        background-color: hsl(184, 100%, 22%);
-    }
-    .flexbox-item3{
-        width: 100px;
-        height: 250px;
-        background-color:  hsl(179, 100%, 13%) ;
-        border-bottom-right-radius: 10px;
-        border-bottom-left-radius: 10px;
-    }
-    h1{
-        color: hsl(0, 0%, 95%);
-        margin-left: 20px;
-        margin-top: 20px;
-        font-family: "Big Shoulders Display", sans-serif;
-        font-size: 22px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-    p{
-        padding-inline: 20px;
-        margin-top: 20px;
-        color: hsla(0, 0%, 100%, 0.75);
-        font-family: "Lexend Deca" sans-serif;
-        font-weight: 400;
-    }
-    button{
-        width: 50px;
-        height: 20px;
-        border-radius: 30px;
-        margin-left: 1px;
-        margin-top: 30px;
-        background-color: hsl(0, 0%, 95%);
-    }
-} */
-
-  
