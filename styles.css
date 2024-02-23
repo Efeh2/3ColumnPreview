@@ -39,11 +39,11 @@ body{
 }
 img{
     margin-top: 40px;
-    margin-left: 40px;
+    padding-inline: 40px;
 }
 h1{
     color: hsl(0, 0%, 95%);
-    margin-left: 40px;
+    padding-inline: 40px;
     margin-top: 20px;
     font-family: "Big Shoulders Display", sans-serif;
     font-size: 32px;
