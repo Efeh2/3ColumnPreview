@@ -9,8 +9,9 @@ body{
 .flexbox-container{
     display: flex;
     align-items: center;
-    margin-top: 100px;
-    margin-left: 270px;
+    justify-content: center;
+    width: 1440px;
+    height: 800px;
 }
 .flexbox-items{
     display: flex;
