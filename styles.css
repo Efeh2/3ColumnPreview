@@ -8,9 +8,14 @@ body{
 }
 .flexbox-container{
     display: flex;
-    justify-items: center;
+    align-items: center;
     margin-top: 100px;
     margin-left: 270px;
+}
+.flexbox-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .flexbox-item1{
     width: 270px;
@@ -88,8 +93,12 @@ button{
 }
 @media screen and (max-width: 375px) {
     .flexbox-container{
-        justify-content: center;
         flex-direction: column;
+        height: 1502px;
+        width: 326.96px;
+    }
+    .flexbox-items{
+        scale: 1.065 0.884;
     }
     .flexbox-item1{
         width: 100px;
